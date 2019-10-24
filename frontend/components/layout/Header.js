@@ -17,6 +17,11 @@ const Logo = styled.h1`
 		background: ${ props => props.theme.brand };
 		text-transform:uppercase;
 		text-decoration: none;
+
+		&:hover {
+			color: ${ props => props.theme.black };
+			background:#fff;
+		}
 	}
 
 	@media ( max-width:1300px ) {
