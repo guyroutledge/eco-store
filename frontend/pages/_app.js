@@ -1,5 +1,5 @@
-import App, { Container } from 'next/app';
-import Page from '../components/Page';
+import App, { Container } from 'next/app'
+import Page from '../components/Page'
 
 class MyApp extends App {
 	render() {
@@ -15,4 +15,4 @@ class MyApp extends App {
 	}
 }
 
-export default MyApp;
+export default MyApp
