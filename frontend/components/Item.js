@@ -13,7 +13,7 @@ const Item = ({ item }) => {
 		<ItemStyles>
 			{ item.image && <img src={ image } alt={ title } /> }
 			<Title>
-				<Link href={{ pathName: '/item', query: { id } }}>
+				<Link href={{ pathname: '/item', query: { id } }}>
 					<a>{ title }</a>
 				</Link>
 			</Title>
@@ -21,7 +21,7 @@ const Item = ({ item }) => {
 			<p>{ description }</p>
 
 			<div className="buttonList">
-				<Link href={{ pathName: '/update', query: { id } }}>
+				<Link href={{ pathname: '/update', query: { id } }}>
 					<a>Edit</a>
 				</Link>
 				<button>Add to Cart</button>
