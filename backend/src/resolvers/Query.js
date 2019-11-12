@@ -6,6 +6,7 @@ const Query = {
 	// 	return items;
 	// }
 	items: forwardTo( 'db' ), // use if no auth needed :)
+	item: forwardTo( 'db' ),
 };
 
 module.exports = Query;
