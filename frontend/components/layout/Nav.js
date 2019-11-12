@@ -6,7 +6,7 @@ const Nav = () => {
 	return (
 		<nav>
 			<NavStyles>
-				<li><Link href="/itmes"><a>Items</a></Link></li>
+				<li><Link href="/items"><a>Shop</a></Link></li>
 				<li><Link href="/sell"><a>Sell</a></Link></li>
 				<li><Link href="/signup"><a>Signup</a></Link></li>
 				<li><Link href="/orders"><a>Orders</a></Link></li>
