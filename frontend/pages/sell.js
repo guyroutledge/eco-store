@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import CreateItem from '../components/CreateItem'
 
 const Sell = () => {
 	return (
 		<div>
-			<h1>Sell page</h1>
+			<CreateItem />
 		</div>
 	)
 }
